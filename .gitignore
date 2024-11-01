@@ -1,0 +1,4 @@
+.clang-format
+.vscode
+# Ignore all executable files
+*.[!a-zA-Z0-9]*
