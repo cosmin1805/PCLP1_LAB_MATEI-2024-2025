@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  big_endian_demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: big_endian_demo
+    platform: linux/s390x  # Specify the big-endian platform
