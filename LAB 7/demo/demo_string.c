@@ -54,12 +54,12 @@ int main() {
 
     // memset example
     char str4[50] = "HelloWorld";
-    memset(str4, 'a', 5);
+    memset(str4, 'a', 5 * sizeof(char));
     printf("\nmemset(str4, 'a', 5): %s\n", str4);
 
     // memcpy example
     char str5[50];
-    memcpy(str5, str4, 5);
+    memcpy(str5, str4, 5 * sizeof(char));
     printf("\nmemcpy(str5, str4, 5): %s\n", str5);
 
     // memmove example
