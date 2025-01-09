@@ -1,0 +1,10 @@
+Subretea 255.255.240.0
+10.0.0.1 Calc2 Descriere2
+10.0.0.2 Calc5 Descriere5
+172.16.0.1 Calc3 Descriere3
+172.16.0.2 Calc6 Descriere6
+192.168.1.100 Calc1 Descriere1
+192.168.2.200 Calc4 Descriere4
+Subretea 255.255.248.0
+10.0.0.3 Calc8 Descriere8
+192.168.3.44 Calc7 Descriere7
